@@ -1,0 +1,38 @@
+.MemeForm {
+  width: 60%;
+  margin: auto;
+}
+
+.MemeForm-input {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.MemeForm-input label {
+  font-weight: bold;
+  display: inline-block;
+  width: 25%;
+  text-align: left;
+}
+
+.MemeForm-input input {
+  display: inline-block;
+  width: 70%;
+}
+
+#submitBtn {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #9EBE8F;
+}
+
+
+
+#submitBtn:hover {
+  background-color: #67845A;
+  cursor: pointer;
+}
